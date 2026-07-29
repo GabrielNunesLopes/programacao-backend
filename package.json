@@ -1,0 +1,27 @@
+{
+  "name": "livraria-api-grupo-sem-grupo-",
+  "version": "1.0.0",
+  "description": "Projeto da UC de Programação Back-End — Curso Técnico em Desenvolvimento de Sistemas\r Escola SENAI \"Santo Paschoal Crepaldi\" — Turma 1-2026-SESI_DEV_OC_1\r ## Integrantes\r - Gabriel Nunes Lopes — [Gabriel](https://github.com/GabrielNunesLopes)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielNunesLopes/livraria-api-grupo-sem-grupo-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GabrielNunesLopes/livraria-api-grupo-sem-grupo-/issues"
+  },
+  "homepage": "https://github.com/GabrielNunesLopes/livraria-api-grupo-sem-grupo-#readme",
+  "devDependencies": {
+    "eslint": "^10.8.0",
+    "nodemon": "^3.1.14"
+  }
+}
