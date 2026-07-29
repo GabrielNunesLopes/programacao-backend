@@ -2,7 +2,7 @@
 Projeto da UC de Programação Back-End — Curso Técnico em Desenvolvimento de Sistemas
 Escola SENAI "Santo Paschoal Crepaldi" — Turma 1-2026-SESI_DEV_OC_1
 ## Integrantes
-- Gabriel Nunes Lopes — @[usuario-github](https://github.com/GabrielNunesLopes)
+- Gabriel Nunes Lopes — @[Gabriel](https://github.com/GabrielNunesLopes)
 
 ## Divisão de responsabilidades
 | Bloco | Integrante | O que ficou sob responsabilidade dele(a) |
