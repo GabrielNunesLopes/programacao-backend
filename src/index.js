@@ -1,4 +1,5 @@
 const catalogo = require("./catalogo");
+
 console.log("=== CATÁLOGO DA LIVRARIA ===");
 console.log("");
 console.log("Titulo: " + catalogo.livro1.titulo);
