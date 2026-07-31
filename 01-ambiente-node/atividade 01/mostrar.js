@@ -12,7 +12,7 @@ console.log("Preco: R$ " + estante.livro1.preco);
 console.log("Estoque: " + estante.livro1.estoque + " unidades");
 console.log("");
 
-// ===== LIVRO 2 =====
+// ===== LIVRO 2 =====a
 console.log("Titulo: " + estante.livro2.titulo);
 // LACUNA 1: livro2
 console.log("Autor: " + estante.livro2.autor);
