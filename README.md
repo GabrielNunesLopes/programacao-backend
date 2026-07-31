@@ -1,60 +1,23 @@
-# 🚀 Backend Portfolio & Projects Hub
+# 🗄️ Projetos e Banco de Dados
 
-Bem-vindo(a)! Este repositório funciona como um **hub central** para centralizar, organizar e documentar todos os projetos, APIs, microserviços e estudos de **Backend** que venho desenvolvendo.
-
----
-
-## 👨‍💻 Sobre Mim
-
-Olá! Sou desenvolvedor(a) focado(a) em engenharia e desenvolvimento **Backend**. Tenho interesse em arquitetura de software, construção de APIs robustas, bancos de dados, microsserviços e boas práticas de código (Clean Code, SOLID, TDD).
-
-- **LinkedIn:** [Seu Nome](https://linkedin.com/in/seu-perfil)
-- **Email:** seu.email@exemplo.com
-- **Portfólio/Website:** [seu-site.com](https://seu-site.com)
+Este repositório centraliza todos os meus projetos de backend, incluindo modelagens de dados, scripts SQL/NoSQL e estruturas de banco de dados.
 
 ---
 
-## 🛠️ Stacks & Tecnologias Principais
+## 📂 Projetos Disponíveis
 
-> *Adapte esta seção com as tecnologias que você mais utiliza.*
+### 🟢 Relacionais (SQL)
+* **`/ecommerce-db`** — Modelagem completa de e-commerce (PostgreSQL). Inclui scripts DDL, DML, views e triggers.
+* **`/sistema-bancario`** — Modelagem para transações financeiras com foco em ACID e Stored Procedures (MySQL).
 
-- **Linguagens:** Node.js / TypeScript / Java / C# / Python / Go
-- **Frameworks:** Express, NestJS, Spring Boot, ASP.NET Core, FastAPI
-- **Bancos de Dados:** PostgreSQL, MySQL, MongoDB, Redis
-- **DevOps & Ferramentas:** Docker, Kubernetes, AWS, Git, GitHub Actions, CI/CD
-- **Arquitetura & Boas Práticas:** REST, GraphQL, Microservices, Clean Architecture, SOLID, TDD
-
----
-
-## 📂 Catálogo de Projetos
-
-Abaixo estão os projetos backend agrupados por categoria ou nível de complexidade.
-
-### 🌟 Projetos Principais / Produção
-
-| Projeto | Descrição | Stack | Repositório |
-| :--- | :--- | :--- | :--- |
-| **E-Commerce API** | API RESTful completa de e-commerce com autenticação JWT, pagamentos e gerenciamento de estoque. | Node.js, TypeScript, PostgreSQL, Docker | [📁 Ver Código](link-do-repo) |
-| **Payment Microservice** | Microsserviço assíncrono para processamento de transações com mensageria. | Java, Spring Boot, RabbitMQ, Redis | [📁 Ver Código](link-do-repo) |
-| **Auth Service** | Serviço centralizado de autenticação e autorização (OAuth2 / OIDC). | C#, ASP.NET Core, IdentityServer, SQL Server | [📁 Ver Código](link-do-repo) |
+### 🟡 Não-Relacionais (NoSQL)
+* **`/logs-analytics`** — Estrutura de documentos e consultas com Aggregation Framework (MongoDB).
+* **`/sessao-usuario`** — Estratégia de cache e armazenamento chave-valor (Redis).
 
 ---
 
-### 🧪 Estudos & Validações de Conceito (PoCs)
+## 🛠️ Tecnologias Utilizadas
 
-Projetos menores focados em testar novas tecnologias, padrões de projeto ou resolver algoritmos.
-
-- 🛠️ **[Nome do Projeto/PoC 1](link-do-repo)**: Descrição curta do que foi explorado (ex: *Testando mensageria com Apache Kafka e Go*).
-- 🛠️ **[Nome do Projeto/PoC 2](link-do-repo)**: Descrição curta (ex: *Implementação do padrão CQRS com MediatR*).
-- 🛠️ **[Nome do Projeto/PoC 3](link-do-repo)**: Descrição curta (ex: *Benchmark de performance entre ORM X e SQL Puro*).
-
----
-
-## 🏗️ Estrutura da Minha Jornada de Aprendizado
-
-```text
-.
-├── 📁 ecommerce-api/         # [Link/Submódulo] API completa de E-commerce
-├── 📁 payment-service/       # [Link/Submódulo] Microsserviço de Pagamentos
-├── 📁 pocs-and-experiments/  # Testes rápidos e estudos conceituais
-└── README.md                 # Este documento
+* **SQL:** PostgreSQL, MySQL, SQL Server
+* **NoSQL:** MongoDB, Redis
+* **Conceitos:** Normalização, Triggers, Views, Índices, Transactions e Aggregations
